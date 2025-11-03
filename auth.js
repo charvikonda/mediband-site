@@ -171,7 +171,7 @@
                     ` : ''}
                     
                     <p style="color: #999; font-size: 0.75rem; margin: 1rem 0 0;">
-                        Created for FBLA by Charvi Konda & Nitya Shah
+                        Created for DECA by Charvi Konda & Nitya Shah
                     </p>
                 </div>
             </div>

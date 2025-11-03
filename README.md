@@ -1,6 +1,6 @@
 # MediBand Website
 
-A comprehensive website for the MediBand smart wristband project, created for FBLA competition with a clean, professional design inspired by modern healthcare technology interfaces.
+A comprehensive website for the MediBand smart wristband project, created for DECA competition with a clean, professional design inspired by modern healthcare technology interfaces.
 
 ## Password Protection
 
@@ -100,15 +100,16 @@ MediBand is designed with comprehensive accessibility features:
 - General health-conscious consumers
 - Parents of children with medical conditions
 
-## FBLA Competition Context
+## DECA Competition Context
 
-This website was created as part of a Future Business Leaders of America (FBLA) project, demonstrating:
+This website was created as part of a Distributive Education Clubs of America (DECA) project, demonstrating:
 
 - **Business Planning**: Comprehensive product strategy and market analysis
-- **Web Design**: Professional, accessible website development
+- **Web Design**: Professional, accessible website development  
 - **Marketing**: Clear value proposition and customer segmentation
 - **Innovation**: Inclusive technology solution addressing real-world healthcare needs
 - **Social Impact**: Focus on accessibility and health equity
+- **Entrepreneurship**: Innovative business model for healthcare technology
 
 ## Mission Statement
 
@@ -122,6 +123,6 @@ This website was created as part of a Future Business Leaders of America (FBLA) 
 
 ---
 
-**Created by Charvi Konda for FBLA Competition 2025**
+**Created by Charvi Konda for DECA Competition 2025**
 
 *"Inclusive innovation for every heartbeat"*
