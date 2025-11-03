@@ -2,28 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MediBand — Accessibility Features</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="auth.js"></script>
 </head>
 <body>
-  <header><h1>MediBand Accessibility</h1></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="variants.html">Variants</a>
-    <a href="accessibility.html">Accessibility</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <section>
-    <h2>Inclusive Design</h2>
-    <div class="grid">
-      <div class="card"><strong>Voice Feedback</strong><br>Spoken alerts for visually impaired users.</div>
-      <div class="card"><strong>Haptic Alerts</strong><br>Vibration-based notifications for silent or tactile feedback.</div>
-      <div class="card"><strong>Adjustable Modes</strong><br>Brightness, sound, and vibration settings for personalized accessibility.</div>
-      <div class="card"><strong>Easy-to-Read Interface</strong><br>Large fonts and intuitive layout for users of all ages.</div>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="MediBand Logo" class="logo-img" />
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="variants.html">Variants</a>
+        <a href="accessibility.html" class="active">Science</a>
+        <a href="pricing.html">Pricing</a>
+        <div class="nav-actions">
+          <a href="contact.html" class="nav-login">Contact Us</a>
+        </div>
+      </nav>
     </div>
-  </section>
-  <footer>&copy; 2025 MediBand. Created by Charvi for FBLA.</footer>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <h2>♿ Accessibility & Science</h2>
+      <p class="section-intro">MediBand is designed from the ground up to be accessible to users of all abilities. We believe healthcare technology should work for everyone, regardless of visual, hearing, motor, or cognitive differences.</p>
+    </section>
+
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔊</div>
+          <h3>Voice Feedback System</h3>
+          <p><strong>Complete Audio Navigation:</strong> Full voice prompts and audio feedback for visually impaired users, with spoken menu navigation and customizable speech settings.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌟</div>
+          <h3>High-Contrast Display</h3>
+          <p><strong>Enhanced Visual Access:</strong> Adjustable contrast modes, large text options up to 300%, and screen reader compatibility for users with visual processing differences.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📳</div>
+          <h3>Haptic Feedback</h3>
+          <p><strong>Sophisticated Touch Alerts:</strong> Customizable vibration patterns that convey different information types, perfect for users who are deaf or hard of hearing.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💡</div>
+          <h3>Visual Alert System</h3>
+          <p><strong>Bright LED Notifications:</strong> Color-coded alerts and flashing emergency signals ensure important information is never missed visually.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">👆</div>
+          <h3>Large Button Interface</h3>
+          <p><strong>Motor-Friendly Design:</strong> Oversized buttons with tactile feedback and reduced pressure activation for users with limited dexterity or motor control.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🗣️</div>
+          <h3>Voice Commands</h3>
+          <p><strong>Hands-Free Operation:</strong> Complete voice control with natural language commands, emergency voice activation, and noise-resistant recognition.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⌚</div>
+          <h3>Adaptive Straps</h3>
+          <p><strong>Easy Fastening:</strong> Multiple strap options including magnetic closures, velcro bands, and one-handed fastening systems for maximum accessibility.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>Simplified Interface</h3>
+          <p><strong>Cognitive Accessibility:</strong> Clean, intuitive design with simplified navigation and clear visual hierarchies for users with cognitive differences.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Educational Support</h3>
+          <p><strong>Built-in Learning:</strong> Interactive health tutorials, medication education, and condition management guides with progress visualization.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">👨‍👩‍👧‍👦</div>
+          <h3>Caregiver Integration</h3>
+          <p><strong>Family Support:</strong> Caregiver dashboard access and supervised setup modes while maintaining user independence and privacy.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⠃</div>
+          <h3>Braille Integration</h3>
+          <p><strong>Tactile Access:</strong> Compatible with Braille displays, includes tactile emergency cards and embossed device identification for complete accessibility.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Sign Language Support</h3>
+          <p><strong>Deaf Community Ready:</strong> ASL instruction videos, emergency sign language cards, and video relay integration for comprehensive deaf accessibility.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2>🧬 Scientific Research & Validation</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔬</div>
+          <h3>Clinical Studies</h3>
+          <p><strong>Evidence-Based Design:</strong> Extensive clinical trials with 2,500+ participants across diverse ability levels, validating effectiveness and accessibility features.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏥</div>
+          <h3>Medical Partnerships</h3>
+          <p><strong>Healthcare Integration:</strong> Collaborations with leading hospitals, rehabilitation centers, and accessibility organizations to ensure real-world effectiveness.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Accessibility Metrics</h3>
+          <p><strong>Measured Impact:</strong> 94% user satisfaction across disability communities, 87% reduction in emergency response times, 78% improvement in medication adherence.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Standards Compliance</h3>
+          <p><strong>Certified Accessibility:</strong> Meets Section 508, WCAG 2.1 AA, ADA compliance, and ISO/IEC 40500 international accessibility standards.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔬</div>
+          <h3>Sensor Technology</h3>
+          <p><strong>Advanced Monitoring:</strong> FDA-approved biosensors with 99.2% accuracy for heart rate, 97% for blood oxygen, and 95% for glucose detection capabilities.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI Research</h3>
+          <p><strong>Machine Learning:</strong> Proprietary algorithms trained on 500,000+ health episodes, achieving 89% accuracy in predicting emergency situations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <a href="contact.html" class="cta-button">Get Accessibility Support</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MediBand. Created for FBLA by Charvi Konda & Nitya Shah.</p>
+      <p class="footer-tagline">"Inclusive innovation for every heartbeat"</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -2,32 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MediBand — Contact Us</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <script src="auth.js"></script>
 </head>
 <body>
-  <header><h1>Contact MediBand</h1></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="variants.html">Variants</a>
-    <a href="accessibility.html">Accessibility</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <section>
-    <h2>We’d love to hear from you!</h2>
-    <form>
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br />
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-  <footer>&copy; 2025 MediBand. Created by Charvi for FBLA.</footer>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="MediBand Logo" class="logo-img" />
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="variants.html">Variants</a>
+        <a href="accessibility.html">Science</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <h2>📞 Contact Us</h2>
+      <p class="section-intro">We're here to help! Reach out for support, questions about MediBand, or to discuss institutional partnerships. Our team is committed to providing excellent service.</p>
+    </section>
+
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📞</div>
+          <h3>Phone Support</h3>
+          <p><strong>24/7 Emergency Line:</strong> (555) 123-MEDI for urgent health emergencies and technical support. TTY/TDD services available for accessibility.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Live Chat</h3>
+          <p><strong>Instant Assistance:</strong> Chat with our support team Monday-Friday 8AM-8PM EST. ASL interpreter services available upon request.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📧</div>
+          <h3>Email Support</h3>
+          <p><strong>Detailed Inquiries:</strong> Send us an email at support@mediband.com. We respond within 24 hours, or 4 hours for urgent medical questions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏥</div>
+          <h3>Healthcare Partnerships</h3>
+          <p><strong>Institutional Sales:</strong> Contact partnerships@mediband.com for bulk orders, EMR integration, and healthcare provider collaboration opportunities.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏫</div>
+          <h3>Education Programs</h3>
+          <p><strong>School & University:</strong> Reach education@mediband.com for campus safety programs, student discounts, and educational institution partnerships.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔧</div>
+          <h3>Technical Support</h3>
+          <p><strong>Device Assistance:</strong> App troubleshooting, device setup, warranty claims, and replacement requests. Available in multiple languages.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <a href="mailto:support@mediband.com" class="cta-button">Send Us An Email</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MediBand. Created for FBLA by Charvi Konda & Nitya Shah.</p>
+      <p class="footer-tagline">"Inclusive innovation for every heartbeat"</p>
+    </div>
+  </footer>
 </body>
 </html>

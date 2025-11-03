@@ -2,30 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MediBand — Features</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="auth.js"></script>
 </head>
 <body>
-  <header><h1>MediBand Features</h1></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="variants.html">Variants</a>
-    <a href="accessibility.html">Accessibility</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <section>
-    <h2>Key Features</h2>
-    <div class="grid">
-      <div class="card"><strong>Emergency Scan</strong><br>QR/NFC access to allergies, medications, conditions, contacts, and blood type.</div>
-      <div class="card"><strong>Health Tracking</strong><br>Monitors heart rate, oxygen, glucose (if applicable), and hydration.</div>
-      <div class="card"><strong>Smart Reminders</strong><br>Custom alerts for medication, hydration, and activity.</div>
-      <div class="card"><strong>AI Predictions</strong><br>Detects early signs of danger using pattern recognition.</div>
-      <div class="card"><strong>App Integration</strong><br>Syncs with mobile app for logs, sharing, and customization.</div>
-      <div class="card"><strong>Offline Functionality</strong><br>Emergency data accessible without internet.</div>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="MediBand Logo" class="logo-img" />
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="features.html" class="active">Features</a>
+        <a href="variants.html">Variants</a>
+        <a href="accessibility.html">Science</a>
+        <a href="pricing.html">Pricing</a>
+        <div class="nav-actions">
+          <a href="contact.html" class="nav-login">Contact Us</a>
+        </div>
+      </nav>
     </div>
-  </section>
-  <footer>&copy; 2025 MediBand. Created by Charvi for FBLA.</footer>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <h2>🔧 Key Features</h2>
+      <p class="section-intro">MediBand combines cutting-edge technology with life-saving functionality, designed to keep you safe and healthy every day.</p>
+    </section>
+
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚨</div>
+          <h3>Emergency Scan</h3>
+          <p><strong>Instant Medical Access:</strong> EMTs or bystanders can scan the band using QR or NFC to access critical information including allergies, medications, emergency contacts, blood type, and medical history.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💓</div>
+          <h3>Health Tracking</h3>
+          <p><strong>Continuous Monitoring:</strong> Advanced sensors track heart rate, blood oxygen levels, glucose levels (for applicable models), hydration, activity levels, and sleep quality patterns.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Smart Reminders</h3>
+          <p><strong>Personalized Alerts:</strong> Custom notifications for medication schedules, hydration reminders, exercise prompts, appointments, and health goal milestones.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI Predictions</h3>
+          <p><strong>Intelligent Health Insights:</strong> Machine learning technology that learns your patterns, detects early signs of danger, predicts health episodes, and provides personalized recommendations.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>App Integration</h3>
+          <p><strong>Seamless Connectivity:</strong> Full mobile app synchronization with progress logs, data sharing with healthcare providers, family access controls, and integration with popular health apps.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📶</div>
+          <h3>Offline Functionality</h3>
+          <p><strong>Always Accessible:</strong> Critical emergency data accessible without internet, local storage of vital information, Bluetooth connectivity, and automatic sync when connection restored.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <a href="variants.html" class="cta-button">Explore Product Variants</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MediBand. Created for FBLA by Charvi Konda & Nitya Shah.</p>
+      <p class="footer-tagline">"Inclusive innovation for every heartbeat"</p>
+    </div>
+  </footer>
 </body>
 </html>

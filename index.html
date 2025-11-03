@@ -2,24 +2,161 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>MediBand — Inclusive Health Innovation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediBand: Clinical Authority</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="auth.js"></script>
 </head>
 <body>
-  <header><h1>MediBand</h1><p>Inclusive innovation for every heartbeat</p></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="variants.html">Variants</a>
-    <a href="accessibility.html">Accessibility</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <section>
-    <h2>Mission & Impact</h2>
-    <p>MediBand empowers users to manage health independently while reducing emergency response errors.</p>
-    <img src="https://via.placeholder.com/800x300?text=MediBand+Wristband" alt="MediBand wristband" width="100%" />
-  </section>
-  <footer>&copy; 2025 MediBand. Created by Charvi for FBLA.</footer>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="MediBand Logo" class="logo-img" />
+      </div>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="features.html">Features</a>
+        <a href="variants.html">Variants</a>
+        <a href="accessibility.html">Science</a>
+        <a href="pricing.html">Pricing</a>
+        <div class="nav-actions">
+          <a href="contact.html" class="nav-login">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Life-Saving Technology<br><span class="hero-accent">Designed for Everyone</span></h1>
+          <p class="hero-subtitle">MediBand combines emergency medical data, AI health monitoring, and accessibility features in one smart wristband. When seconds matter, we're ready.</p>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-number">2.3M+</div>
+              <div class="stat-label">Lives Protected</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">89%</div>
+              <div class="stat-label">Faster Emergency Response</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">Health Monitoring</div>
+            </div>
+          </div>
+          <div class="cta-buttons">
+            <a href="variants.html" class="btn-primary">Explore Models</a>
+            <a href="features.html" class="btn-secondary">See How It Works</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-device">
+            <img src="wristband.png" alt="MediBand emergency interface" />
+          </div>
+          <div class="hero-features">
+            <div class="floating-feature">
+              <div class="feature-icon">🚨</div>
+              <span>Emergency Scan</span>
+            </div>
+            <div class="floating-feature">
+              <div class="feature-icon">💓</div>
+              <span>Health Tracking</span>
+            </div>
+            <div class="floating-feature">
+              <div class="feature-icon">🤖</div>
+              <span>AI Predictions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2>Why Healthcare Professionals Choose MediBand</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚨</div>
+          <h3>Emergency Access</h3>
+          <p><strong>Instant Medical Data:</strong> EMTs scan your wristband to access allergies, medications, emergency contacts, and medical history in seconds.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💓</div>
+          <h3>Continuous Monitoring</h3>
+          <p><strong>24/7 Health Tracking:</strong> Advanced sensors monitor heart rate, blood oxygen, activity levels, and detect health anomalies before they become critical.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI Health Insights</h3>
+          <p><strong>Predictive Technology:</strong> Machine learning algorithms analyze your health patterns and provide early warnings for potential health issues.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">♿</div>
+          <h3>Universal Accessibility</h3>
+          <p><strong>Designed for All:</strong> Voice feedback, haptic alerts, large text, and multi-language support ensure everyone can use MediBand effectively.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Privacy Protected</h3>
+          <p><strong>HIPAA Compliant:</strong> Your medical data is encrypted, secure, and only accessible to authorized medical personnel during emergencies.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Community Safety</h3>
+          <p><strong>Network Integration:</strong> Connects with local emergency services, hospitals, and campus safety systems for comprehensive protection.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <h2>Trusted by Healthcare Leaders</h2>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon">🏥</div>
+          <h3>500+ Hospitals</h3>
+          <p>Integrated with major healthcare systems</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">🎓</div>
+          <h3>300+ Universities</h3>
+          <p>Campus safety programs nationwide</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">✓</div>
+          <h3>FDA Approved</h3>
+          <p>Medical device certification</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">🛡️</div>
+          <h3>HIPAA Compliant</h3>
+          <p>Your privacy is protected</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Protect What Matters Most?</h2>
+        <p>Join millions who trust MediBand for their health and safety</p>
+        <div class="cta-buttons">
+          <a href="pricing.html" class="cta-button">Order Your MediBand</a>
+          <a href="contact.html" class="btn-secondary">Talk to Our Team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MediBand. Created for FBLA by Charvi Konda & Nitya Shah.</p>
+      <p class="footer-tagline">"Inclusive innovation for every heartbeat"</p>
+    </div>
+  </footer>
 </body>
 </html>

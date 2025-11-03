@@ -2,29 +2,244 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MediBand — Product Variants</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="auth.js"></script>
 </head>
 <body>
-  <header><h1>MediBand Variants</h1></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="variants.html">Variants</a>
-    <a href="accessibility.html">Accessibility</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <section>
-    <h2>Product Variants</h2>
-    <div class="grid">
-      <div class="card"><strong>MediBand Core</strong><br>Basic health tracking and emergency readiness.</div>
-      <div class="card"><strong>MediBand Care</strong><br>Tailored for chronic conditions like diabetes and asthma.</div>
-      <div class="card"><strong>MediBand Sense</strong><br>Accessibility-focused with voice and vibration alerts.</div>
-      <div class="card"><strong>MediBand Link</strong><br>Community safety model with local alerts.</div>
-      <div class="card"><strong>MediBand Kids</strong><br>Child-friendly with parental app connection.</div>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="MediBand Logo" class="logo-img" />
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="variants.html" class="active">Variants</a>
+        <a href="accessibility.html">Science</a>
+        <a href="pricing.html">Pricing</a>
+        <div class="nav-actions">
+          <a href="contact.html" class="nav-login">Contact Us</a>
+        </div>
+      </nav>
     </div>
-  </section>
-  <footer>&copy; 2025 MediBand. Created by Charvi for FBLA.</footer>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <h2>📱 Product Variants</h2>
+      <p class="section-intro">Choose the MediBand model that best fits your lifestyle and health needs. Each variant includes our core emergency and health tracking features, with specialized enhancements.</p>
+    </section>
+
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>MediBand Core - $100</h3>
+          <p><strong>Essential Health Tracking:</strong> Perfect for everyday wellness monitoring with emergency QR/NFC scanning, basic health tracking, and 7-day battery life.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏥</div>
+          <h3>MediBand Care - $125</h3>
+          <p><strong>Chronic Condition Support:</strong> Advanced glucose monitoring, condition-specific algorithms, caregiver alerts, and AI-powered health predictions for diabetes, asthma, and heart conditions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">♿</div>
+          <h3>MediBand Sense - $150</h3>
+          <p><strong>Accessibility Enhanced:</strong> Voice feedback, haptic vibration patterns, high-contrast display, large buttons, and Braille compatibility for users with visual, hearing, or motor impairments.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>MediBand Link - $135</h3>
+          <p><strong>Community Safety Network:</strong> Local emergency service integration, community alerts, automated location sharing, and campus/workplace safety connections.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🧸</div>
+          <h3>MediBand Kids - $110</h3>
+          <p><strong>Child-Friendly Design:</strong> Parental controls, school nurse integration, colorful interface, smaller fit, educational games, and emergency guardian alerts.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI+ Subscription - $4.99/mo</h3>
+          <p><strong>Enhanced Intelligence:</strong> Advanced AI health analysis, doctor portal sync, predictive alerts, family dashboard, priority support, and cloud backup across all models.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2>� Feature Comparison</h2>
+      <div class="table-container">
+        <table class="comparison">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Core</th>
+              <th>Care</th>
+              <th>Sense</th>
+              <th>Link</th>
+              <th>Kids</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Emergency QR/NFC</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <td>Basic Health Tracking</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <td>Advanced Health Monitoring</td>
+              <td>❌</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>AI Health Predictions</td>
+              <td>❌</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>Accessibility Features</td>
+              <td>❌</td>
+              <td>⚠️</td>
+              <td>✅</td>
+              <td>⚠️</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>Community Integration</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✅</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>Parental Controls</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <td>Glucose Monitoring</td>
+              <td>❌</td>
+              <td>✅</td>
+              <td>✅</td>
+              <td>❌</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>Voice Feedback</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✅</td>
+              <td>❌</td>
+              <td>❌</td>
+            </tr>
+            <tr>
+              <td>Haptic Alerts</td>
+              <td>⚠️</td>
+              <td>⚠️</td>
+              <td>✅</td>
+              <td>⚠️</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>Emergency Services Integration</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✅</td>
+              <td>⚠️</td>
+            </tr>
+            <tr>
+              <td>Educational Games</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✅</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">✅ Full Feature | ⚠️ Limited/Adapted | ❌ Not Available</p>
+    </section>
+
+    <section class="features-section">
+      <h2>�🔬 Technical Specifications</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔋</div>
+          <h3>Battery & Power</h3>
+          <p><strong>Long-Lasting Performance:</strong> 7-day battery life on Core, 5-day on advanced models, wireless charging, low-power emergency mode, and quick charge capability.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💧</div>
+          <h3>Durability & Design</h3>
+          <p><strong>Built to Last:</strong> IPX7 water resistance, medical-grade silicone bands, scratch-resistant display, impact protection, and hypoallergenic materials.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📡</div>
+          <h3>Connectivity</h3>
+          <p><strong>Always Connected:</strong> Bluetooth 5.0, NFC emergency scanning, Wi-Fi sync, cellular backup (Link model), and offline emergency data storage.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Security & Privacy</h3>
+          <p><strong>Medical-Grade Protection:</strong> HIPAA compliant, encrypted data transmission, local emergency storage, biometric locks, and secure cloud backup.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Health Sensors</h3>
+          <p><strong>Advanced Monitoring:</strong> Heart rate, blood oxygen, activity tracking, sleep analysis, glucose monitoring (Care/Sense), and temperature sensing.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>App Integration</h3>
+          <p><strong>Seamless Experience:</strong> iOS and Android apps, healthcare provider portals, family sharing, emergency contacts, and third-party health app sync.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <a href="pricing.html" class="cta-button">View Pricing & Order</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MediBand. Created for FBLA by Charvi Konda & Nitya Shah.</p>
+      <p class="footer-tagline">"Inclusive innovation for every heartbeat"</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -2,52 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MediBand — Pricing</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="auth.js"></script>
 </head>
 <body>
-  <header><h1>MediBand Pricing</h1></header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="features.html">Features</a>
-    <a href="variants.html">Variants</a>
-    <a href="accessibility.html">Accessibility</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <section>
-    <h2>Pricing Plans</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Basic</h3>
-        <p><strong>$29.99</strong> one-time</p>
-        <ul>
-          <li>Emergency QR/NFC</li>
-          <li>Basic health tracking</li>
-          <li>Offline access</li>
-        </ul>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="logo.png" alt="MediBand Logo" class="logo-img" />
       </div>
-      <div class="card">
-        <h3>Care</h3>
-        <p><strong>$49.99</strong> one-time</p>
-        <ul>
-          <li>All Basic features</li>
-          <li>Chronic condition support</li>
-          <li>App sync</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Sense</h3>
-        <p><strong>$59.99</strong> one-time</p>
-        <ul>
-          <li>All Care features</li>
-          <li>Accessibility enhancements</li>
-          <li>Voice & haptic alerts</li>
-        </ul>
-      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="variants.html">Variants</a>
+        <a href="accessibility.html">Science</a>
+        <a href="pricing.html" class="active">Pricing</a>
+        <div class="nav-actions">
+          <a href="contact.html" class="nav-login">Contact Us</a>
+        </div>
+      </nav>
     </div>
-    <p>Bulk pricing available for schools, hospitals, and community organizations.</p>
-  </section>
-  <footer>&copy; 2025 MediBand. Created by Charvi for FBLA.</footer>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <h2>💰 Simple, Transparent Pricing</h2>
+      <p class="section-intro">Choose the MediBand that fits your needs and budget. All devices include core emergency features with no hidden fees or subscriptions required.</p>
+    </section>
+
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>MediBand Core - $100</h3>
+          <p><strong>Essential Health Tracking:</strong> Emergency QR/NFC scanning, basic health monitoring, medication reminders, 7-day battery, and mobile app integration.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏥</div>
+          <h3>MediBand Care - $125</h3>
+          <p><strong>Advanced Chronic Care:</strong> All Core features plus glucose monitoring, AI health predictions, caregiver alerts, and doctor portal integration.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">♿</div>
+          <h3>MediBand Sense - $150</h3>
+          <p><strong>Accessibility Enhanced:</strong> All Care features plus voice feedback, haptic alerts, high-contrast display, and Braille compatibility.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>MediBand Link - $135</h3>
+          <p><strong>Community Safety:</strong> All Core features plus local emergency integration, community alerts, and campus/workplace safety connections.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🧸</div>
+          <h3>MediBand Kids - $110</h3>
+          <p><strong>Child-Friendly:</strong> Child-safe materials, parental controls, school nurse integration, educational games, and emergency guardian alerts.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI+ Subscription - $4.99/mo</h3>
+          <p><strong>Enhanced Intelligence:</strong> Advanced AI analysis, doctor portal sync, predictive alerts, family dashboard, and priority support. 30-day free trial included.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2>🏢 Bulk & Institutional Pricing</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🏫</div>
+          <h3>Schools & Universities</h3>
+          <p><strong>Education Discounts:</strong> 25+ devices get 15% off, 100+ devices get 25% off. Includes custom campus integration and training support.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏥</div>
+          <h3>Healthcare Organizations</h3>
+          <p><strong>Medical Provider Rates:</strong> 50+ devices get 20% off, 500+ devices get 35% off. EMR integration and staff training programs included.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏢</div>
+          <h3>Corporate Wellness</h3>
+          <p><strong>Employee Programs:</strong> Workplace safety packages, custom branding options, ongoing support, and analytics dashboard for HR teams.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛒</div>
+          <h3>Where to Buy</h3>
+          <p><strong>Multiple Channels:</strong> Direct online store, participating hospitals and clinics, and coming soon to major pharmacy chains nationwide.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Warranty & Support</h3>
+          <p><strong>Complete Protection:</strong> 30-day money back guarantee, 2-year warranty, 24/7 emergency support, and 50% off replacement devices.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📞</div>
+          <h3>Customer Support</h3>
+          <p><strong>Always Available:</strong> Dedicated accessibility support team, TTY/TDD services, ASL interpreters, and priority support for AI+ subscribers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <a href="contact.html" class="cta-button">Order Your MediBand Today</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 MediBand. Created for FBLA by Charvi Konda & Nitya Shah.</p>
+      <p class="footer-tagline">"Inclusive innovation for every heartbeat"</p>
+    </div>
+  </footer>
 </body>
 </html>
